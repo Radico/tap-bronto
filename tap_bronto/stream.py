@@ -59,7 +59,7 @@ class Stream:
         try:
             client = suds.client.Client(BRONTO_WSDL, timeout=3600)
             session_id = client.service.login(
-                self.config.get('token'))
+                self.config.get('api_token'))
             session_header = client.factory.create('sessionHeader')
             session_header.sessionId = session_id
             client.set_options(soapheaders=session_header)
