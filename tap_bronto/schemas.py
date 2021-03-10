@@ -120,7 +120,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'associated with the activity.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'workflowId': {
@@ -130,7 +130,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'activity.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'emailAddress': {
@@ -143,7 +143,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'mobileNumber': {
@@ -156,7 +156,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'contactStatus': {
@@ -167,7 +167,7 @@ ACTIVITY_SCHEMA = with_properties({
                         '`bounce`, `unconfirmed`, or `unsub`'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'messageName': {
@@ -177,7 +177,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'is returned if a messageId is returned.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'deliveryType': {
@@ -188,7 +188,7 @@ ACTIVITY_SCHEMA = with_properties({
                         ' friend).'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'deliveryStart': {
@@ -199,7 +199,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'a deliveryId is returned.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'workflowName': {
@@ -210,7 +210,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'is returned.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'segmentName': {
@@ -220,7 +220,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'is returned if a segmentId is returned.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'listName': {
@@ -230,7 +230,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'returned if a listId is returned.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'listLabel': {
@@ -242,7 +242,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'if a listId is returned.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'automatorName': {
@@ -251,7 +251,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'the activity.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'smsKeywordName': {
@@ -262,7 +262,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'returned.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'bounceType': {
@@ -277,7 +277,7 @@ ACTIVITY_SCHEMA = with_properties({
             'activityType is bounce.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'bounceReason': {
@@ -287,7 +287,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'returned if the activityType is bounce.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'skipReason': {
@@ -298,7 +298,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'if the activityType is contactskip.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'linkName': {
@@ -308,7 +308,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'activityType is click.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'linkUrl': {
@@ -318,7 +318,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'the activityType is click.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'orderId': {
@@ -328,7 +328,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'activityType is conversion.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'unsubscribeMethod': {
@@ -342,7 +342,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'is unsubscribe.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'ftafEmails': {
@@ -353,7 +353,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'is friendforward.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'socialNetwork': {
@@ -365,7 +365,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'returned if the activityType is social.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'socialActivity': {
@@ -376,7 +376,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'if the activityType is social.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'webformId': {
@@ -384,7 +384,7 @@ ACTIVITY_SCHEMA = with_properties({
         'description': ('The unique ID for a webform.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'webformAction': {
@@ -395,7 +395,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'the activityType is webform.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     },
     'webformName': {
@@ -405,7 +405,7 @@ ACTIVITY_SCHEMA = with_properties({
                         'activityType is webform.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False,
+            'selected-by-default': True,
         }
     }
 })
@@ -429,7 +429,7 @@ CONTACT_SCHEMA = with_properties({
                         'the contact functions.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'mobileNumber': {
@@ -440,7 +440,7 @@ CONTACT_SCHEMA = with_properties({
                         'contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'status': {
@@ -450,7 +450,7 @@ CONTACT_SCHEMA = with_properties({
                         'bounce, unconfirmed, unsub'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'msgPref': {
@@ -460,7 +460,7 @@ CONTACT_SCHEMA = with_properties({
                         'of text or html.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'source': {
@@ -470,7 +470,7 @@ CONTACT_SCHEMA = with_properties({
                         'webform, or sforcereport (salesforce report).'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'customSource': {
@@ -479,7 +479,7 @@ CONTACT_SCHEMA = with_properties({
                         'the contact came from.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'created': {
@@ -489,7 +489,7 @@ CONTACT_SCHEMA = with_properties({
                         'changed'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'modified': {
@@ -499,7 +499,7 @@ CONTACT_SCHEMA = with_properties({
                         'immutable and cannot be changed.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'deleted': {
@@ -507,7 +507,7 @@ CONTACT_SCHEMA = with_properties({
         'description': 'Set to true if the contact has been deleted.',
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'listIds': {
@@ -520,7 +520,7 @@ CONTACT_SCHEMA = with_properties({
                         'by calling the readLists function.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'SMSKeywordIDs': {
@@ -532,7 +532,7 @@ CONTACT_SCHEMA = with_properties({
                         'SMS keywords the contact is subscribed to.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'numSends': {
@@ -541,7 +541,7 @@ CONTACT_SCHEMA = with_properties({
                         'the contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'numBounces': {
@@ -550,7 +550,7 @@ CONTACT_SCHEMA = with_properties({
                         'sent to the contact resulted in a bounce.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'numOpens': {
@@ -560,7 +560,7 @@ CONTACT_SCHEMA = with_properties({
                         'multiple opens of the same delivery.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'numClicks': {
@@ -571,7 +571,7 @@ CONTACT_SCHEMA = with_properties({
                         'this metric.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'numConversions': {
@@ -580,7 +580,7 @@ CONTACT_SCHEMA = with_properties({
                         'the contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'conversionAmount': {
@@ -589,7 +589,7 @@ CONTACT_SCHEMA = with_properties({
                         'by the contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'geoIPCity': {
@@ -599,7 +599,7 @@ CONTACT_SCHEMA = with_properties({
                         'IP addresses.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'geoIPStateRegion': {
@@ -609,7 +609,7 @@ CONTACT_SCHEMA = with_properties({
                         'non-mobile IP addresses.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'geoIPZip': {
@@ -619,7 +619,7 @@ CONTACT_SCHEMA = with_properties({
                         'IP addresses.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'geoIPCountry': {
@@ -629,7 +629,7 @@ CONTACT_SCHEMA = with_properties({
                         'IP addresses.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'geoIPCountryCode': {
@@ -639,7 +639,7 @@ CONTACT_SCHEMA = with_properties({
                         'non-mobile IP addresses.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'primaryBrowser': {
@@ -648,7 +648,7 @@ CONTACT_SCHEMA = with_properties({
                         'Safari, etc.) used by a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'mobileBrowser': {
@@ -658,7 +658,7 @@ CONTACT_SCHEMA = with_properties({
                         'by a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'primaryEmailClient': {
@@ -668,7 +668,7 @@ CONTACT_SCHEMA = with_properties({
                         'Mail, etc.) used by a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'mobileEmailClient': {
@@ -678,7 +678,7 @@ CONTACT_SCHEMA = with_properties({
                         'a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'operatingSystem': {
@@ -687,7 +687,7 @@ CONTACT_SCHEMA = with_properties({
                         'Win7, Android, iOS etc.) used by a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'firstOrderDate': {
@@ -696,7 +696,7 @@ CONTACT_SCHEMA = with_properties({
                         'a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'lastOrderDate': {
@@ -705,7 +705,7 @@ CONTACT_SCHEMA = with_properties({
                         'a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'lastOrderTotal': {
@@ -714,7 +714,7 @@ CONTACT_SCHEMA = with_properties({
                         'the most recent order.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'totalOrders': {
@@ -723,7 +723,7 @@ CONTACT_SCHEMA = with_properties({
                         'a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'totalRevenue': {
@@ -732,7 +732,7 @@ CONTACT_SCHEMA = with_properties({
                         'for a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'averageOrderValue': {
@@ -741,7 +741,7 @@ CONTACT_SCHEMA = with_properties({
                         'recorded for a contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'lastDeliveryDate': {
@@ -750,7 +750,7 @@ CONTACT_SCHEMA = with_properties({
                         'to the contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'lastOpenDate': {
@@ -759,7 +759,7 @@ CONTACT_SCHEMA = with_properties({
                         'for the contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     },
     'lastClickDate': {
@@ -768,7 +768,7 @@ CONTACT_SCHEMA = with_properties({
                         'for the contact.'),
         'metadata': {
             'inclusion': 'available',
-            'selected-by-default': False
+            'selected-by-default': True
         }
     }
 })
