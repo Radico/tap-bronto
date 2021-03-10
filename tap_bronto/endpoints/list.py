@@ -24,7 +24,7 @@ class ListStream(Stream):
             'description': ('The internal name of the list.'),
             'metadata': {
                 'inclusion': 'available',
-                'selected-by-default': False,
+                'selected-by-default': True,
             },
         },
         'label': {
@@ -33,7 +33,7 @@ class ListStream(Stream):
                             'of the list. '),
             'metadata': {
                 'inclusion': 'available',
-                'selected-by-default': False,
+                'selected-by-default': True,
             }
         },
         'activeCount': {
@@ -42,7 +42,7 @@ class ListStream(Stream):
                             'currently on the list.'),
             'metadata': {
                 'inclusion': 'available',
-                'selected-by-default': False,
+                'selected-by-default': True,
             }
         },
         'status': {

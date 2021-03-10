@@ -41,7 +41,7 @@ class UnsubscribeStream(Stream):
                             'resulted in the contact unsubscribing.'),
             'metadata': {
                 'inclusion': 'available',
-                'selected-by-default': False,
+                'selected-by-default': True,
             },
         },
         'complaint': {
@@ -50,7 +50,7 @@ class UnsubscribeStream(Stream):
                             'unsubscribe.'),
             'metadata': {
                 'inclusion': 'available',
-                'selected-by-default': False,
+                'selected-by-default': True,
             }
         },
         'created': {
