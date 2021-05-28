@@ -15,7 +15,7 @@ LOGGER = singer.get_logger()  # noqa
 
 
 def validate_config(config):
-    required_keys = ['token']
+    required_keys = ['api_token']
     missing_keys = []
     null_keys = []
     has_errors = False
