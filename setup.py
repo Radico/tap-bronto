@@ -10,9 +10,10 @@ setup(
     url='http://fishtownanalytics.com',
     classifiers=['Programming Language :: Python :: 3 :: Only'],
     py_modules=['tap_bronto'],
+    python_requires='>=3.9',
     install_requires=[
         'suds-py3==1.3.3.0',
-        'singer-python>=3.5.0',
+        'singer-python==6.1.1',
         'funcy==1.10',
         'voluptuous==0.10.5',
     ],
